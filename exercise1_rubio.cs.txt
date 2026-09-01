@@ -1,0 +1,49 @@
+using System;
+
+class wank
+{
+    public static void Main()
+    {
+        Console.WriteLine ("C#");
+        Console.WriteLine("ts DSTALGO");
+        Console.WriteLine(" ");
+
+        Console.WriteLine("Rubio, Seth Jairos F.");
+        Console.WriteLine("19");
+        Console.WriteLine("BSIS");
+        Console.WriteLine("CSB Antipolo");
+        Console.WriteLine("pizza");
+        Console.WriteLine(" ");
+
+        Console.WriteLine("===================");
+        Console.WriteLine("  Student Profile  ");
+        Console.WriteLine("===================");
+        Console.WriteLine("Name: Rubio, Seth");
+        Console.WriteLine("Age: 19");
+        Console.WriteLine("Course: BSIS");
+        Console.WriteLine("Year Level: 2");
+        Console.WriteLine("Section: BFIS02");
+        Console.WriteLine("===================");
+        Console.WriteLine(" ");
+
+        Console.WriteLine("==================");
+        Console.WriteLine("       Menu       ");
+        Console.WriteLine("==================");
+        Console.WriteLine("1. Burger  PHP 120");
+        Console.WriteLine("2. Pizza   PHP 180");
+        Console.WriteLine("3. Pasta   PHP 150");
+        Console.WriteLine("4. Drink   PHP 60");
+        Console.WriteLine("===================");
+        Console.WriteLine(" ");
+
+        Console.WriteLine("=======================");
+        Console.WriteLine("      Mario Santa      ");
+        Console.WriteLine("   Marketing Manager   ");
+        Console.WriteLine("=======================");
+        Console.WriteLine("Email: mario@email.com");
+        Console.WriteLine("Phone: 0967-420-6969");
+        Console.WriteLine("Company: WarioWare");
+        Console.WriteLine("Location: Dingaling");
+        Console.WriteLine("===================");
+    }
+}
