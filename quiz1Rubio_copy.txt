@@ -1,0 +1,35 @@
+using System.ComponentModel;
+// this numbah one
+Console.Write("Speak here: "); String input1 = Console.ReadLine();
+Console.Write("Speak here again: "); String input2 = Console.ReadLine();
+Console.Write("AGAIN: "); String input3 = Console.ReadLine();
+Console.Write("hello: "); String input4 = Console.ReadLine();
+Console.Write("Last one: "); String input5 = Console.ReadLine();
+Console.WriteLine("Thank you for your input: " + input1 + ", " + input2 + ", " + input3 + ", " + input4 + ", " + input5);
+Console.WriteLine(" ");
+
+// numbrrrrr two
+Console.Write("input first number: "); String num1 = Console.ReadLine(); int numO = Convert.ToInt32(num1);
+Console.Write("input second number: "); String num2 = Console.ReadLine(); int numT = Convert.ToInt32(num2);
+Console.Write("input third number: "); String num3 = Console.ReadLine(); int numR = Convert.ToInt32(num3);
+int sum = numO + numT + numR;
+int avg = sum/3;
+int prd = numO * numT * numR;
+int[] funnygroup = [numO, numT, numR]; // idk if this is how you make a list actually im just assuming
+int large = funnygroup.Max();
+int small = funnygroup.Min(); // lord please work
+int range = large - small;
+
+bool isPos = (numO >= 0 && numT >= 0 && numR >= 0);
+bool isZero = (numO == 0 || numT == 0 || numR == 0);
+bool isEqual = (numO == numT && numT == numR && numR == numO);
+
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Average: " + avg);
+Console.WriteLine("Product: " + prd);
+Console.WriteLine("Largest: " + large);
+Console.WriteLine("Smallest: " + small);
+Console.WriteLine("Range: " + range);
+Console.WriteLine("Are all numbers positive? " + isPos);
+Console.WriteLine("Is at least one number zero? " + isZero);
+Console.WriteLine("Are all numbers equal: " + isEqual);
