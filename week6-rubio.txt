@@ -1,0 +1,5 @@
+Linear Data Structure - Linear data structures are, as you'd guess, linear. Linear data structures are very simple; data elements are ordered sequentially from the first that was added to the last.
+One-Dimensional Array - The simplest form of array, wherein there is only a single row of elements of one data type accessed through one index associated with the array.
+Big O Notation - Used to express the upper bounds of an algorithm's time or space complexity. The larger or more complex the input, the longer it takes for the algorithm to process. Like sorting boxes based on their contained items, the more boxes you have to sort through the longer it will take.
+Linear Search - Linear search searches in a linear fashion, going through each element sequentially until it finds the element and returns its index number.
+Binary Search - Binary search essentially takes the lower bound and the upper bound of the array being searched, and compares the target element to the median element of the 2 extremes. Based on this, the half in which the target element is not in is discarded. The process is repeated until the target element is found.
